@@ -10,9 +10,9 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 
 # Blogroll
-LINKS =  (('BitBucket', 'https://bitbucket.org/pierrejoye/gd-libgd'),
-          ('Issue Tracker', 'https://bitbucket.org/pierrejoye/gd-libgd/issues'),
-          ('Wiki', 'https://bitbucket.org/pierrejoye/gd-libgd/wiki/Home'),
+LINKS =  (('BitBucket', 'https://bitbucket.org/libgd/gd-libgd'),
+          ('Issue Tracker', 'https://bitbucket.org/libgd/gd-libgd/issues'),
+          ('Wiki', 'https://bitbucket.org/libgd/gd-libgd/wiki/Home'),
          )
 
 # Social widget
