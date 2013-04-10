@@ -3,8 +3,9 @@ LibGD 2.1.0-alpha1 release
 
 :slug: release-2.1.0-alpha1
 :date: 2013-04-10
-:author: Pierre
+:author: Pierre Joye
 :category: News
+status: draft
 
 LibGD team proudly announces that the 2.1.0-alpha1 version of GD
 Graphics Library has been released.  All the improvements that PHP GD
