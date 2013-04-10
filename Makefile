@@ -58,7 +58,7 @@ serve:
 devserver:
 	$(BASEDIR)/develop_server.sh restart
 
-publish:
+publish: html
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 ssh_upload: publish
@@ -74,9 +74,10 @@ ftp_upload: publish
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUTDIR) $(FTP_TARGET_DIR) ; quit"
 
 git_upload: publish
-	-[ ! -d $(GIT_DIR) ] && mkdir -p $(GIT_DIR)
-	rsync -CP -rvz --delete $(OUTPUTDIR)/ $(GIT_DIR)
-	cd $(GIT_DIR) && git add . && git commit -m "Publish on $$(date)"
+	-[ ! -d $(GIT_DIR) ] && git clone git@bitbucket.org:libgd/libgd.bitbucket.org.git $(GIT_DIR)
+	rsync -P -rvz --exclude '.git/' --delete $(OUTPUTDIR)/ $(GIT_DIR)
+	cd $(GIT_DIR) && git add . && git commit -m "Publish on $$(date)" -a
+	cd $(GIT_DIR) && git push
 
 github: publish
 	ghp-import $(OUTPUTDIR)
