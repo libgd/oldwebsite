@@ -16,6 +16,7 @@ SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/var/www
 
+GIT_DIR=../libgd.bitbucket.org/
 DROPBOX_DIR=~/Dropbox/Public/
 
 $(OUTPUTDIR):
@@ -71,6 +72,11 @@ dropbox_upload: publish
 
 ftp_upload: publish
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUTDIR) $(FTP_TARGET_DIR) ; quit"
+
+git_upload: publish
+	-[ ! -d $(GIT_DIR) ] && mkdir -p $(GIT_DIR)
+	rsync -CP -rvz --delete $(OUTPUTDIR)/ $(GIT_DIR)
+	cd $(GIT_DIR) && git add . && git commit -m "Publish on $$(date)"
 
 github: publish
 	ghp-import $(OUTPUTDIR)
