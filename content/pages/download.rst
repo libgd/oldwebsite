@@ -17,5 +17,5 @@ You can download current version of GD Graphics Library from via the
 `gd-libgd project on bitbucket.org`_ where the source code repository
 lives.
 
-.. _gd-libgd project on bitbucket.org: https://bitbucket.org/pierrejoye/gd-libgd/overview
+.. _gd-libgd project on bitbucket.org: https://bitbucket.org/libgd/gd-libgd/overview
 
