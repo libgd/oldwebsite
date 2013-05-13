@@ -5,7 +5,7 @@ import sys
 sys.path.append('.')
 from pelicanconf import *
 
-SITEURL = 'http://libgd.org'
+SITEURL = 'http://libgd.bitbucket.org'
 
 DELETE_OUTPUT_DIRECTORY = True
 

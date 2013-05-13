@@ -11,6 +11,7 @@ DEFAULT_LANG = u'en'
 
 # Blogroll
 LINKS =  (('BitBucket', 'https://bitbucket.org/libgd/gd-libgd'),
+          ('Downloads', 'https://bitbucket.org/libgd/gd-libgd/downloads'),
           ('Issue Tracker', 'https://bitbucket.org/libgd/gd-libgd/issues'),
           ('Wiki', 'https://bitbucket.org/libgd/gd-libgd/wiki/Home'),
          )
