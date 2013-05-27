@@ -17,5 +17,5 @@ the `gd-libgd project on bitbucket.org`_.
 We would like to invite everyone to come and test the new library and
 report any issue found to our `issue tracker`_.
 
-.. _issue tracker: https://bitbucket.org/pierrejoye/gd-libgd/issues
+.. _issue tracker: https://bitbucket.org/libgd/gd-libgd/issues
 .. _gd-libgd project on bitbucket.org: https://bitbucket.org/libgd/gd-libgd/downloads
