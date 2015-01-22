@@ -13,5 +13,10 @@ before_script:
   - echo "github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==" > ~/.ssh/known_hosts
 
 script:
-  - git remote add website git@github.com:libgd/libgd.github.io.git
-  - make github
+  - git remote remove origin
+  - git remote add origin git@github.com:libgd/libgd.github.io.git
+  - git fetch --all
+  - make publish
+  - echo "libgd.org" > output/CNAME
+  - ghp-import -n -r origin -b master output
+  - git push --force origin master
