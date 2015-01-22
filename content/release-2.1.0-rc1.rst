@@ -12,10 +12,10 @@ glitches and so far everything looks fine and stable, thus we are
 releasing RC1.  No more functionality will be added, just bugfixes.
 
 You can download the 2.1.0-rc1 version of GD Graphics Library from
-the `gd-libgd project on bitbucket.org`_.
+the `libgd project`_.
 
 We would like to invite everyone to come and test the new library and
 report any issue found to our `issue tracker`_.
 
-.. _issue tracker: https://bitbucket.org/libgd/gd-libgd/issues
-.. _gd-libgd project on bitbucket.org: https://bitbucket.org/libgd/gd-libgd/downloads
+.. _issue tracker: https://github.com/libgd/libgd/issues
+.. _libgd project: https://github.com/libgd/libgd/releases

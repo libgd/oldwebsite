@@ -12,10 +12,10 @@ had made to GD Graphics Library has been merged into 2.1.0-alpha1
 release.
 
 You can download the 2.1.0-alpha1 version of GD Graphics Library from
-the `gd-libgd project on bitbucket.org`_.
+the `libgd project`_.
 
 We would like to invite everyone to come and test the new library and
 report any issue found to our `issue tracker`_.
 
-.. _issue tracker: https://bitbucket.org/libgd/gd-libgd/issues
-.. _gd-libgd project on bitbucket.org: https://bitbucket.org/libgd/gd-libgd/downloads
+.. _issue tracker: https://github.com/libgd/libgd/issues
+.. _libgd project: https://github.com/libgd/libgd/releases

@@ -16,7 +16,7 @@ SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/var/www
 
-GIT_DIR=../libgd.bitbucket.org/
+GIT_DIR=../libgd.github.io/
 DROPBOX_DIR=~/Dropbox/Public/
 
 $(OUTPUTDIR):
@@ -74,7 +74,7 @@ ftp_upload: publish
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUTDIR) $(FTP_TARGET_DIR) ; quit"
 
 git_upload: publish
-	-[ ! -d $(GIT_DIR) ] && git clone git@bitbucket.org:libgd/libgd.bitbucket.org.git $(GIT_DIR)
+	-[ ! -d $(GIT_DIR) ] && git clone git@github.com:libgd/libgd.git $(GIT_DIR)
 	rsync -P -rvz --exclude '.git/' --delete $(OUTPUTDIR)/ $(GIT_DIR)
 	cd $(GIT_DIR) && git add . && git commit -m "Publish on $$(date)" -a
 	cd $(GIT_DIR) && git push

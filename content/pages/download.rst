@@ -8,13 +8,15 @@ Downloads
 Stable release
 ==============
 
-There is no stable release of 2.1.0 version yet.
+You can download current releases of GD Graphics Library from the
+`libgd project`_.
 
 Development version
 ===================
 
-You can download current version of GD Graphics Library from the
-`gd-libgd project on bitbucket.org`_.
+You can download current development sources of GD Graphics Library
+from the `libgd git repository`_.
 
-.. _gd-libgd project on bitbucket.org: https://bitbucket.org/libgd/gd-libgd/downloads
+.. _libgd git repository: https://github.com/libgd/libgd
+.. _libgd project: https://github.com/libgd/libgd/releases
 
