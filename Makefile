@@ -80,7 +80,7 @@ git_upload: publish
 	cd $(GIT_DIR) && git push
 
 github: publish
-	echo "libgd.org" > $(OUTPUDIR)/CNAME
+	echo "libgd.org" > $(OUTPUTDIR)/CNAME
 	ghp-import -n -p -r website -b master $(OUTPUTDIR)
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
