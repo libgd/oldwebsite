@@ -3,7 +3,6 @@ compiler:
   - python
 before_install:
   - sudo apt-get update -yqq
-  - sudo apt-get dist-upgrade -yqq
   - sudo apt-get install python-pip
   - sudo pip install ghp-import pelican cpp-coveralls --use-mirrors
 script:
