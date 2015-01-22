@@ -7,4 +7,4 @@ before_install:
   - sudo apt-get install python-pip
   - sudo pip install ghp-import pelican cpp-coveralls --use-mirrors
 script:
-  - pelican -s pelican.conf.py . && ghp-import output && git push origin gh-pages
+  - make github
