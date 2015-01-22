@@ -10,10 +10,10 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 
 # Blogroll
-LINKS =  (('BitBucket', 'https://bitbucket.org/libgd/gd-libgd'),
-          ('Downloads', 'https://bitbucket.org/libgd/gd-libgd/downloads'),
-          ('Issue Tracker', 'https://bitbucket.org/libgd/gd-libgd/issues'),
-          ('Wiki', 'https://bitbucket.org/libgd/gd-libgd/wiki/Home'),
+LINKS =  (('GitHub', 'https://github.com/libgd/libgd'),
+          ('Downloads', 'https://github.com/libgd/libgd/releases'),
+          ('Issues', 'https://github.com/libgd/libgd/issues'),
+          ('Wiki', 'https://github.com/libgd/libgd/wiki'),
          )
 
 # Social widget
