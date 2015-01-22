@@ -18,5 +18,5 @@ script:
   - git fetch --all
   - make publish
   - echo "libgd.org" > output/CNAME
-  - ghp-import -n -r origin -b master output
+  - ghp-import -n -r origin -b master -m "$(git log -1 --oneline)" output
   - git push --force origin master
