@@ -19,6 +19,6 @@ after_success:
   - git remote remove origin
   - git remote add origin git@github.com:libgd/libgd.github.io.git
   - git fetch --all
-  - echo "libgd.org" > output/CNAME
+  - #echo "libgd.org" > output/CNAME
   - ghp-import -n -r origin -b master -m "$(git log -1 --oneline)" output
   - git push --force origin master
