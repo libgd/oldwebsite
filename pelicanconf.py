@@ -21,6 +21,10 @@ SOCIAL = (#('You can add links in your config file', '#'),
           ('github', 'https://github.com/libgd/libgd'),
          )
 
+PAGE_EXCLUDES = ['manuals']
+ARTICLE_EXCLUDES = ['manuals']
+STATIC_PATHS = ['manuals']
+
 DEFAULT_PAGINATION = 10
 
 THEME = 'libgd'

@@ -1,0 +1,9 @@
+Documentation
+#############
+
+:date: 2016-05-10
+:title: Docs
+:slug: docs
+
+* `gd-2.1.1 </manuals/2.1.1/>`_
+* `gd-2.0.35 </manuals/2.0.35/>`_
