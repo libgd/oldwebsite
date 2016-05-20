@@ -13,6 +13,7 @@ DEFAULT_LANG = u'en'
 LINKS =  (
           ('Downloads', 'https://github.com/libgd/libgd/releases'),
           ('Issues', 'https://github.com/libgd/libgd/issues'),
+          ('Mailing List', 'http://news.php.net/php.gd.devel/'),
 #          ('Wiki', 'https://github.com/libgd/libgd/wiki'),
          )
 
