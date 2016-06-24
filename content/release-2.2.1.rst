@@ -7,7 +7,7 @@ LibGD 2.2.1 release
 :category: News
 
 Hot on the tail of the 2.2.0 release, we've got 2.2.1 ready!  A security
-issue was mixed in the previous bug triaging but that's in here now.
+issue was missed in the previous bug triaging but that's in here now.
 
 This is a recommended update.
 
