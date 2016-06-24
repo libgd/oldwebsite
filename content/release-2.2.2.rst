@@ -13,9 +13,7 @@ Security related fixes:
 
  - Integer Overflow in gdImagePaletteToTrueColor() resulting in heap overflow (CVE-2016-5767)
  - #215 Stack overflow with gdImageFillToBorder (CVE-2015-8874)
- - Integer Overflow in _gd2GetHeader() resulting in heap overflow (CVE-2016-5766)
  - NULL Pointer Dereference at _gdScaleVert
- - Integer Overflow in gdImagePaletteToTrueColor() in heap overflow
 
 We also like to mention to consider the GD and GD2 image formats only for development or testing
 purposes. We do plan to deprecate it in GD 2.3 and remove it in GD 3.0. Its existence is not justified
