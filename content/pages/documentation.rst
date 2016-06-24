@@ -5,5 +5,6 @@ Documentation
 :title: Docs
 :slug: docs
 
+* `gd-2.2.2 </manuals/2.22.2/>`_
 * `gd-2.1.1 </manuals/2.1.1/>`_
 * `gd-2.0.35 </manuals/2.0.35/>`_
