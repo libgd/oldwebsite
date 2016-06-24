@@ -27,7 +27,7 @@ This is a recommended update.
 You can download the 2.2.2 version of GD Graphics Library from
 the `libgd project`_.
 
-.. _libgd project: https://github.com/libgd/libgd/releases/tag/gd-2.2.2
+Check out the `full commits list`_ since the previous release.
 
-Full commits list since 2.2.1
-.. _libgd project: https://github.com/libgd/libgd/compare/gd-2.2.1...gd-2.2.2
+.. _libgd project: https://github.com/libgd/libgd/releases/tag/gd-2.2.2
+.. _full commits list: https://github.com/libgd/libgd/compare/gd-2.2.1...gd-2.2.2

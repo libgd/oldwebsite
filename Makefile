@@ -75,6 +75,7 @@ ftp_upload: publish
 
 git_upload: publish
 	-[ ! -d $(GIT_DIR) ] && git clone git@github.com:libgd/libgd.git $(GIT_DIR)
+	cd $(GIT_DIR) && git pull --rebase
 	rsync -P -rvz --exclude '.git/' --delete $(OUTPUTDIR)/ $(GIT_DIR)
 	cd $(GIT_DIR) && git add . && git commit -m "Publish on $$(date)" -a
 	cd $(GIT_DIR) && git push
