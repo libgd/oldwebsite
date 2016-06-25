@@ -2,6 +2,7 @@ language: python
 compiler:
 - python
 before_install:
+- export
 - openssl aes-256-cbc -K $encrypted_a27c77282a93_key -iv $encrypted_a27c77282a93_iv
   -in deploy_libgd_key.enc -out deploy_libgd_key -d
 - chmod 600 deploy_libgd_key
