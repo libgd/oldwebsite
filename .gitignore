@@ -3,3 +3,4 @@
 *.pyo
 *~
 output/
+deploy_libgd_key

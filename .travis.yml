@@ -1,14 +1,25 @@
 language: python
+
+env:
+  global:
+  - ENCRYPTION_LABEL: "a27c77282a93"
+  
 compiler:
 - python
+
 before_install:
-- openssl aes-256-cbc -K $encrypted_8c393341f536_key -iv $encrypted_8c393341f536_iv -in deploy_libgd_key.enc -out deploy_libgd_key -d
+- ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
+- ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
+- ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
+- ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
+- openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in deploy_key.enc -out deploy_key -d
 - chmod 600 deploy_libgd_key
 - eval `ssh-agent -s`
 - ssh-add deploy_libgd_key
 - sudo apt-get update -yqq
 - sudo apt-get install python-pip
 - sudo pip install ghp-import pelican cpp-coveralls
+
 script:
 - make publish
 - git remote remove origin
