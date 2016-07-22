@@ -1,10 +1,11 @@
 Documentation
 #############
 
-:date: 2016-05-10
+:date: 2016-07-22
 :title: Docs
 :slug: docs
 
+* `gd-2.2.3 </manuals/2.2.3/>`_
 * `gd-2.2.2 </manuals/2.2.2/>`_
 * `gd-2.2.1 </manuals/2.2.1/>`_
 * `gd-2.2.0 </manuals/2.2.0/>`_
