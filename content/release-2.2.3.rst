@@ -28,6 +28,9 @@ Important update:
  
 This is a recommended update.
 
+On a sidenote, we have now a gitter channel if you have any questions or like to discuss with us,`gitter`_, in addition to our "#libgd" freenode channel.
+
+
 You can download the 2.2.3 version of GD Graphics Library from
 the `libgd project`_.
 
@@ -35,4 +38,4 @@ Check out the `full commits list`_ since the previous release.
 
 .. _libgd project: https://github.com/libgd/libgd/releases/tag/gd-2.2.3
 .. _full commits list: https://github.com/libgd/libgd/compare/gd-2.2.2...gd-2.2.3
-
+.. _gitter: https://gitter.im/libgd/libgd
