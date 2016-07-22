@@ -6,22 +6,24 @@ LibGD 2.2.3 release
 :author: Pierre Joye
 :category: News
 
-
 We welcome the 2.2.2 release around a month after 2.2.2 (we are getting consistent). Another important
 milestone in the GD 2.2 series.
 
 Security related fixes:
 This flaw is caused by loading data from external sources (file, custom ctx, etc) and are hard to validate before calling libgd APIs:
+
  - fix php bug 72339, Integer Overflow in _gd2GetHeader (CVE-2016-5766)
  - bug #248, fix Out-Of-Bounds Read in read_image_tga
 
 Using application provided parameters, in these cases invalid data causes the issues:
+
  - Integer overflow error within _gdContributionsAlloc() (CVE-2016-6207)
  - fix php bug 72494, invalid color index not handled, can lead to crash
  - improve color check for CropThreshold
 
 
-Important update
+Important update:
+
  - gdImageCopyResampled has been improved. Better handling of images with alpha channel, also brings libgd in sync with php's bundled gd.
  
 This is a recommended update.
