@@ -6,13 +6,14 @@ LibGD 2.2.3 release
 :author: Pierre Joye
 :category: News
 
-We welcome the 2.2.2 release around a month after 2.2.2 (we are getting consistent). Another important
+We welcome the 2.2.3 release around a month after 2.2.2 (we are getting consistent). Another important
 milestone in the GD 2.2 series.
 
 Security related fixes:
 This flaw is caused by loading data from external sources (file, custom ctx, etc) and are hard to validate before calling libgd APIs:
 
  - fix php bug 72339, Integer Overflow in _gd2GetHeader (CVE-2016-5766)
+ - bug #247, A read out-of-bands was found in the parsing of TGA files (CVE-2016-6132)
  - bug #248, fix Out-Of-Bounds Read in read_image_tga
 
 Using application provided parameters, in these cases invalid data causes the issues:
