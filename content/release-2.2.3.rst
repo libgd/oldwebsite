@@ -18,7 +18,7 @@ This flaw is caused by loading data from external sources (file, custom ctx, etc
 Using application provided parameters, in these cases invalid data causes the issues:
 
  - Integer overflow error within _gdContributionsAlloc() (CVE-2016-6207)
- - fix php bug 72494, invalid color index not handled, can lead to crash
+ - fix php bug 72494, invalid color index not handled, can lead to crash ( CVE-2016-6128)
  - improve color check for CropThreshold
 
 
