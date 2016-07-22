@@ -29,7 +29,8 @@ Important update:
  
 This is a recommended update.
 
-On a sidenote, we have now a gitter channel if you have any questions or like to discuss with us,`gitter`_, in addition to our "#libgd" freenode channel.
+On a sidenote, we have now a gitter channel if you have any questions or like to discuss with us,
+`gitter`_, in addition to our "#libgd" freenode channel.
 
 
 You can download the 2.2.3 version of GD Graphics Library from
