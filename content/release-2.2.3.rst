@@ -14,6 +14,7 @@ This flaw is caused by loading data from external sources (file, custom ctx, etc
 
  - fix php bug 72339, Integer Overflow in _gd2GetHeader (CVE-2016-5766)
  - bug #247, A read out-of-bands was found in the parsing of TGA files (CVE-2016-6132)
+ - also bug #247, Buffer over-read issue when parsing crafted TGA file (CVE-2016-6214)
  - bug #248, fix Out-Of-Bounds Read in read_image_tga
 
 Using application provided parameters, in these cases invalid data causes the issues:
