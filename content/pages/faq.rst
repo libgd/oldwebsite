@@ -192,8 +192,8 @@ course, opening truly huge images can cause real memory problems, if
 several are open at once. 8,000 pixels times 8,000 pixels times four
 bytes for truecolor equals a walloping 256 megabytes.
 
-How can I determine the image dimensions without loading the entire
-image into memory (and possibly running out)?
+How can I determine the image dimensions without loading the entire image into memory (and possibly running out)?
+=================================================================================================================
 
 Very large images can cause gd to run out of memory (see the previous
 question). And sometimes the image file itself isn't terribly large—
