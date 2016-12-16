@@ -12,7 +12,7 @@ milestone in the GD 2.2 series.
 Security related fixes:
 
  - Integer Overflow in gdImagePaletteToTrueColor() resulting in heap overflow (CVE-2016-5767)
- - #215 Stack overflow with gdImageFillToBorder (CVE-2015-8874)
+ - #215 Stack overflow with gdImageFillToBorder (CVE-2015-8874, CVE-2016-9933)
  - NULL Pointer Dereference at _gdScaleVert
 
 We also like to mention to consider the GD and GD2 image formats only for development or testing
