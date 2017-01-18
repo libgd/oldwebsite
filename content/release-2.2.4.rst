@@ -1,4 +1,4 @@
-LibGD 2.2.3 release
+LibGD 2.2.4 release
 ###################
 
 :slug: release-2.2.4
