@@ -1,0 +1,9 @@
+ghp-import
+
+# TRAVIS-END
+# Everything above is specific to running on travis.  This marker is needed
+# by the check_versions.py helper script, so don't mess with it.
+
+# Even minor upgrades (3.6->3.7) can break parsing of theme templates,
+# so pin a specific series until we can test out newer ones.
+pelican == 3.7.*

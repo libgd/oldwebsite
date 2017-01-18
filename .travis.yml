@@ -8,7 +8,7 @@ before_install:
 - ssh-add deploy_libgd_key
 - sudo apt-get update -yqq
 - sudo apt-get install python-pip
-- sudo pip install ghp-import pelican
+- sudo pip install -r requirements.txt
 script:
 - make publish
 - git remote remove origin

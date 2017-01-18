@@ -137,6 +137,10 @@ git_upload: publish
 $(OUTPUTDIR):
 	mkdir $(OUTPUTDIR)
 
+html: check_versions
+check_versions:
+	$(PY) ./check_versions.py
+
 .DEFAULT_GOAL = html
 
-.PHONY: git_upload
+.PHONY: git_upload check_versions
