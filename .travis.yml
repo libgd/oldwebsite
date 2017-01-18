@@ -8,7 +8,7 @@ before_install:
 - ssh-add deploy_libgd_key
 - sudo apt-get update -yqq
 - sudo apt-get install python-pip
-- sudo pip install ghp-import pelican cpp-coveralls
+- sudo pip install ghp-import pelican
 script:
 - make publish
 - git remote remove origin
