@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+from __future__ import unicode_literals
 
 AUTHOR = u'libgd.org'
 SITENAME = u'GD Graphics Library'
 SITEURL = ''
+
+PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
 
