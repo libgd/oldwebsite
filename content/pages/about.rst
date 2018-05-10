@@ -17,7 +17,7 @@ graphics, thumbnails, and most anything else, on the fly. While not
 restricted to use on the web, the most common applications of GD involve
 website development.
 
-The library was originally developped by `Thomas Boutell`_ and is now
+The library was originally developed by `Thomas Boutell`_ and is now
 maintained by `Pierre Joye`_ under the umbrella of `PHP.net`_.
 
 .. _Thomas Boutell: http://www.boutell.com/
