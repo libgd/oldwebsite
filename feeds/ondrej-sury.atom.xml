@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GD Graphics Library - Ondřej Surý</title><link href="https://libgd.github.io/" rel="alternate"></link><link href="https://libgd.github.io/feeds/ondrej-sury.atom.xml" rel="self"></link><id>https://libgd.github.io/</id><updated>2017-01-18T00:00:00+01:00</updated><entry><title>LibGD 2.2.4 release</title><link href="https://libgd.github.io/release-2.2.4.html" rel="alternate"></link><published>2017-01-18T00:00:00+01:00</published><updated>2017-01-18T00:00:00+01:00</updated><author><name>Ondřej Surý</name></author><id>tag:libgd.github.io,2017-01-18:/release-2.2.4.html</id><summary type="html">&lt;p&gt;LibGD team is proud to announce the 2.2.4 release of libgd.&lt;/p&gt;
+&lt;p&gt;Security related fixes:
+This flaw is caused by loading data from external sources (file, custom ctx, etc) and are hard to validate before calling libgd APIs:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;gdImageCreate() doesn't check for oversized images and as such is
+prone …&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;LibGD team is proud to announce the 2.2.4 release of libgd.&lt;/p&gt;
+&lt;p&gt;Security related fixes:
+This flaw is caused by loading data from external sources (file, custom ctx, etc) and are hard to validate before calling libgd APIs:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;gdImageCreate() doesn't check for oversized images and as such is
+prone to DoS vulnerabilities. (CVE-2016-9317)&lt;/li&gt;
+&lt;li&gt;double-free in gdImageWebPtr() (CVE-2016-6912)&lt;/li&gt;
+&lt;li&gt;potential unsigned underflow in gd_interpolation.c (CVE-2016-10166)&lt;/li&gt;
+&lt;li&gt;DOS vulnerability in gdImageCreateFromGd2Ctx() (CVE-2016-10167)&lt;/li&gt;
+&lt;li&gt;Signed Integer Overflow gd_io.c (CVE-2016-10168)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For full list of changes, see &lt;a class="reference external" href="https://github.com/libgd/libgd/blob/gd-2.2.4/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a recommended update.&lt;/p&gt;
+&lt;p&gt;You can download the 2.2.4 version of GD Graphics Library from
+the &lt;a class="reference external" href="https://github.com/libgd/libgd/releases/tag/gd-2.2.4"&gt;libgd project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a class="reference external" href="https://github.com/libgd/libgd/compare/gd-2.2.3...gd-2.2.4"&gt;full commits list&lt;/a&gt; since the previous release.&lt;/p&gt;
+</content><category term="News"></category></entry><entry><title>LibGD 2.1.0-rc1 release</title><link href="https://libgd.github.io/release-2.1.0-rc1.html" rel="alternate"></link><published>2013-05-24T00:00:00+02:00</published><updated>2013-05-24T00:00:00+02:00</updated><author><name>Ondřej Surý</name></author><id>tag:libgd.github.io,2013-05-24:/release-2.1.0-rc1.html</id><summary type="html">&lt;p&gt;GD team proudly announces that the 2.1.0-rc1 version of GD Graphics
+Library has been released.  We have fixed some reported bugs and
+glitches and so far everything looks fine and stable, thus we are
+releasing RC1.  No more functionality will be added, just bugfixes.&lt;/p&gt;
+&lt;p&gt;You can download the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;GD team proudly announces that the 2.1.0-rc1 version of GD Graphics
+Library has been released.  We have fixed some reported bugs and
+glitches and so far everything looks fine and stable, thus we are
+releasing RC1.  No more functionality will be added, just bugfixes.&lt;/p&gt;
+&lt;p&gt;You can download the 2.1.0-rc1 version of GD Graphics Library from
+the &lt;a class="reference external" href="https://github.com/libgd/libgd/releases"&gt;libgd project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We would like to invite everyone to come and test the new library and
+report any issue found to our &lt;a class="reference external" href="https://github.com/libgd/libgd/issues"&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
+</content><category term="News"></category></entry><entry><title>LibGD 2.1.0-alpha1 release</title><link href="https://libgd.github.io/release-2.1.0-alpha1.html" rel="alternate"></link><published>2013-04-10T00:00:00+02:00</published><updated>2013-04-10T00:00:00+02:00</updated><author><name>Ondřej Surý</name></author><id>tag:libgd.github.io,2013-04-10:/release-2.1.0-alpha1.html</id><summary type="html">&lt;p&gt;GD team proudly announces that the 2.1.0-alpha1 version of GD Graphics
+Library has been released.  Most of the improvements that PHP GD team
+had made to GD Graphics Library has been merged into 2.1.0-alpha1
+release.&lt;/p&gt;
+&lt;p&gt;You can download the 2.1.0-alpha1 version of GD Graphics …&lt;/p&gt;</summary><content type="html">&lt;p&gt;GD team proudly announces that the 2.1.0-alpha1 version of GD Graphics
+Library has been released.  Most of the improvements that PHP GD team
+had made to GD Graphics Library has been merged into 2.1.0-alpha1
+release.&lt;/p&gt;
+&lt;p&gt;You can download the 2.1.0-alpha1 version of GD Graphics Library from
+the &lt;a class="reference external" href="https://github.com/libgd/libgd/releases"&gt;libgd project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We would like to invite everyone to come and test the new library and
+report any issue found to our &lt;a class="reference external" href="https://github.com/libgd/libgd/issues"&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
+</content><category term="News"></category></entry><entry><title>New libgd.org website</title><link href="https://libgd.github.io/new-website.html" rel="alternate"></link><published>2013-04-09T00:00:00+02:00</published><updated>2013-04-09T00:00:00+02:00</updated><author><name>Ondřej Surý</name></author><id>tag:libgd.github.io,2013-04-09:/new-website.html</id><content type="html">&lt;p&gt;The libgd.org has a new website.  We have built the new site in
+&lt;a class="reference external" href="http://getpelican.com"&gt;Pelican&lt;/a&gt; in order to statically render our site content. You can
+view the sources used to build this website in its own &lt;a class="reference external" href="https://github.org/libgd/website"&gt;git repository&lt;/a&gt;.&lt;/p&gt;
+</content><category term="News"></category></entry></feed>

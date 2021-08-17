@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>GD Graphics Library - Pierre Joye</title><link>https://libgd.github.io/</link><description></description><lastBuildDate>Fri, 22 Jul 2016 00:00:00 +0200</lastBuildDate><item><title>LibGD 2.2.3 release</title><link>https://libgd.github.io/release-2.2.3.html</link><description>&lt;p&gt;We welcome the 2.2.3 release around a month after 2.2.2 (we are getting consistent). Another important
+milestone in the GD 2.2 series.&lt;/p&gt;
+&lt;p&gt;Security related fixes:
+This flaw is caused by loading data from external sources (file, custom ctx, etc) and are hard to validate before …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pierre Joye</dc:creator><pubDate>Fri, 22 Jul 2016 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:libgd.github.io,2016-07-22:/release-2.2.3.html</guid><category>News</category></item><item><title>LibGD 2.2.2 release</title><link>https://libgd.github.io/release-2.2.2.html</link><description>&lt;p&gt;Exactly a month after 2.2.1 we welcome the 2.2.2 release. An important
+milestone in the GD 2.2 series.&lt;/p&gt;
+&lt;p&gt;Security related fixes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Integer Overflow in gdImagePaletteToTrueColor() resulting in heap overflow (CVE-2016-5767)&lt;/li&gt;
+&lt;li&gt;#215 Stack overflow with gdImageFillToBorder (CVE-2015-8874, CVE-2016-9933)&lt;/li&gt;
+&lt;li&gt;NULL Pointer Dereference at _gdScaleVert&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We also like …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pierre Joye</dc:creator><pubDate>Sat, 25 Jun 2016 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:libgd.github.io,2016-06-25:/release-2.2.2.html</guid><category>News</category></item><item><title>LibGD 2.1.1 final release</title><link>https://libgd.github.io/release-2.1.1.html</link><description>&lt;p&gt;GD team proudly announces that the 2.1.1 version of GD Graphics
+Library has been released.  We have fixed some reported bugs and
+improved the build scripts (cmake and configure). See the Changelog
+files for a full list with details or CVEs.&lt;/p&gt;
+&lt;p&gt;This is a recommended update.&lt;/p&gt;
+&lt;p&gt;You can …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pierre Joye</dc:creator><pubDate>Wed, 14 Jan 2015 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:libgd.github.io,2015-01-14:/release-2.1.1.html</guid><category>News</category></item><item><title>LibGD 2.1.0 final release</title><link>https://libgd.github.io/release-2.1.0.html</link><description>&lt;p&gt;GD team proudly announces that the 2.1.0 version of GD Graphics
+Library has been released.  We have fixed some reported bugs and
+improved the build scripts (cmake and configure).&lt;/p&gt;
+&lt;p&gt;You can download the 2.1.0 version of GD Graphics Library from
+the &lt;a class="reference external" href="https://github.com/libgd/libgd/releases"&gt;libgd project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We would like …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pierre Joye</dc:creator><pubDate>Fri, 24 May 2013 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:libgd.github.io,2013-05-24:/release-2.1.0.html</guid><category>News</category></item></channel></rss>

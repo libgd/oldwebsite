@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GD Graphics Library - Mike Frysinger</title><link href="https://libgd.github.io/" rel="alternate"></link><link href="https://libgd.github.io/feeds/mike-frysinger.atom.xml" rel="self"></link><id>https://libgd.github.io/</id><updated>2021-03-07T00:00:00+01:00</updated><entry><title>LibGD 2.3.2 release AVIF &amp; HEIF support</title><link href="https://libgd.github.io/release-2.3.2.html" rel="alternate"></link><published>2021-03-07T00:00:00+01:00</published><updated>2021-03-07T00:00:00+01:00</updated><author><name>Mike Frysinger</name></author><id>tag:libgd.github.io,2021-03-07:/release-2.3.2.html</id><summary type="html">&lt;p&gt;The LibGD team is proud to announce the 2.3.2 release of libgd.&lt;/p&gt;
+&lt;p&gt;Fixes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;gif: allow decodin when both Global and Local Colormaps (&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/494"&gt;#494&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Added:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;avif: Support for AVIF images via libavif (&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/494"&gt;#494&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;heif: Support for HEIF/AVIF images via libheif (&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/395"&gt;#395&lt;/a&gt;) (&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/557"&gt;#557&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;webp: Drop ../deps/ search when building …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;The LibGD team is proud to announce the 2.3.2 release of libgd.&lt;/p&gt;
+&lt;p&gt;Fixes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;gif: allow decodin when both Global and Local Colormaps (&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/494"&gt;#494&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Added:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;avif: Support for AVIF images via libavif (&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/494"&gt;#494&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;heif: Support for HEIF/AVIF images via libheif (&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/395"&gt;#395&lt;/a&gt;) (&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/557"&gt;#557&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;webp: Drop ../deps/ search when building with cmake&lt;/li&gt;
+&lt;li&gt;Windows: Remove unused snprintf fallback&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For full list of changes, see &lt;a class="reference external" href="https://github.com/libgd/libgd/blob/gd-2.3.1/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a recommended update.&lt;/p&gt;
+&lt;p&gt;You can download the 2.3.1 version of GD Graphics Library from
+the &lt;a class="reference external" href="https://github.com/libgd/libgd/releases/tag/gd-2.3.1"&gt;libgd 2.3.1 release&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a class="reference external" href="https://github.com/libgd/libgd/compare/gd-2.3.0...gd-2.3.1"&gt;full commits list&lt;/a&gt; since the previous release.&lt;/p&gt;
+</content><category term="News"></category></entry><entry><title>LibGD 2.2.1 release</title><link href="https://libgd.github.io/release-2.2.1.html" rel="alternate"></link><published>2016-05-20T00:00:00+02:00</published><updated>2016-05-20T00:00:00+02:00</updated><author><name>Mike Frysinger</name></author><id>tag:libgd.github.io,2016-05-20:/release-2.2.1.html</id><summary type="html">&lt;p&gt;Hot on the tail of the 2.2.0 release, we've got 2.2.1 ready!  A security
+issue was missed in the previous bug triaging but that's in here now.&lt;/p&gt;
+&lt;p&gt;This is a recommended update.&lt;/p&gt;
+&lt;p&gt;You can download the 2.2.1 version of GD Graphics Library from
+the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hot on the tail of the 2.2.0 release, we've got 2.2.1 ready!  A security
+issue was missed in the previous bug triaging but that's in here now.&lt;/p&gt;
+&lt;p&gt;This is a recommended update.&lt;/p&gt;
+&lt;p&gt;You can download the 2.2.1 version of GD Graphics Library from
+the &lt;a class="reference external" href="https://github.com/libgd/libgd/releases/tag/gd-2.2.1"&gt;libgd project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a class="reference external" href="https://github.com/libgd/libgd/compare/gd-2.2.0...gd-2.2.1"&gt;full commits list&lt;/a&gt; since the previous release.&lt;/p&gt;
+</content><category term="News"></category></entry><entry><title>LibGD 2.2.0 release</title><link href="https://libgd.github.io/release-2.2.0.html" rel="alternate"></link><published>2016-05-19T00:00:00+02:00</published><updated>2016-05-19T00:00:00+02:00</updated><author><name>Mike Frysinger</name></author><id>tag:libgd.github.io,2016-05-19:/release-2.2.0.html</id><summary type="html">&lt;p&gt;GD team proudly announces that the 2.2.0 version of GD Graphics
+Library has been released.  We have fixed a good number of reported
+bugs.  The cmake build is getting better, but most people should
+still use the configure script.  See the Changelog files for a full
+list with …&lt;/p&gt;</summary><content type="html">&lt;p&gt;GD team proudly announces that the 2.2.0 version of GD Graphics
+Library has been released.  We have fixed a good number of reported
+bugs.  The cmake build is getting better, but most people should
+still use the configure script.  See the Changelog files for a full
+list with details or CVEs.&lt;/p&gt;
+&lt;p&gt;This is a recommended update.&lt;/p&gt;
+&lt;p&gt;You can download the 2.2.0 version of GD Graphics Library from
+the &lt;a class="reference external" href="https://github.com/libgd/libgd/releases/tag/gd-2.2.0"&gt;libgd project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a class="reference external" href="https://github.com/libgd/libgd/compare/gd-2.1.0...gd-2.2.0"&gt;full commits list&lt;/a&gt; since the previous release.&lt;/p&gt;
+</content><category term="News"></category></entry></feed>

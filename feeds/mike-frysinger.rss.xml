@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>GD Graphics Library - Mike Frysinger</title><link>https://libgd.github.io/</link><description></description><lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0100</lastBuildDate><item><title>LibGD 2.3.2 release AVIF &amp; HEIF support</title><link>https://libgd.github.io/release-2.3.2.html</link><description>&lt;p&gt;The LibGD team is proud to announce the 2.3.2 release of libgd.&lt;/p&gt;
+&lt;p&gt;Fixes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;gif: allow decodin when both Global and Local Colormaps (&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/494"&gt;#494&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Added:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;avif: Support for AVIF images via libavif (&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/494"&gt;#494&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;heif: Support for HEIF/AVIF images via libheif (&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/395"&gt;#395&lt;/a&gt;) (&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/557"&gt;#557&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;webp: Drop ../deps/ search when building …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mike Frysinger</dc:creator><pubDate>Sun, 07 Mar 2021 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:libgd.github.io,2021-03-07:/release-2.3.2.html</guid><category>News</category></item><item><title>LibGD 2.2.1 release</title><link>https://libgd.github.io/release-2.2.1.html</link><description>&lt;p&gt;Hot on the tail of the 2.2.0 release, we've got 2.2.1 ready!  A security
+issue was missed in the previous bug triaging but that's in here now.&lt;/p&gt;
+&lt;p&gt;This is a recommended update.&lt;/p&gt;
+&lt;p&gt;You can download the 2.2.1 version of GD Graphics Library from
+the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mike Frysinger</dc:creator><pubDate>Fri, 20 May 2016 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:libgd.github.io,2016-05-20:/release-2.2.1.html</guid><category>News</category></item><item><title>LibGD 2.2.0 release</title><link>https://libgd.github.io/release-2.2.0.html</link><description>&lt;p&gt;GD team proudly announces that the 2.2.0 version of GD Graphics
+Library has been released.  We have fixed a good number of reported
+bugs.  The cmake build is getting better, but most people should
+still use the configure script.  See the Changelog files for a full
+list with …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mike Frysinger</dc:creator><pubDate>Thu, 19 May 2016 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:libgd.github.io,2016-05-19:/release-2.2.0.html</guid><category>News</category></item></channel></rss>

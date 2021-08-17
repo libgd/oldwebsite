@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>GD Graphics Library - Willson-chen</title><link>https://libgd.github.io/</link><description></description><lastBuildDate>Sat, 30 Jan 2021 00:00:00 +0100</lastBuildDate><item><title>LibGD 2.3.1 release</title><link>https://libgd.github.io/release-2.3.1.html</link><description>&lt;p&gt;The LibGD team is proud to announce the 2.3.1 release of libgd.&lt;/p&gt;
+&lt;p&gt;Fixes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Fix potential integer overflow detected by oss-fuzz&lt;/li&gt;
+&lt;li&gt;Fix &lt;a class="reference external" href="https://github.com/libgd/libgd/issues/615"&gt;#615&lt;/a&gt; using libraqm&lt;/li&gt;
+&lt;li&gt;Fix &lt;a class="reference external" href="https://github.com/libgd/libgd/issues/303"&gt;#303&lt;/a&gt;: gdlib.pc: use Requires instead of Libs&lt;/li&gt;
+&lt;li&gt;Using uninitialized variables. (CVE-2019-11038)&lt;/li&gt;
+&lt;li&gt;Heap-based buffer overflow. (CVE-2019-6977)&lt;/li&gt;
+&lt;li&gt;Double-free in gdImage*Ptr(). (CVE-2019-6978)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For full …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Willson-chen</dc:creator><pubDate>Sat, 30 Jan 2021 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:libgd.github.io,2021-01-30:/release-2.3.1.html</guid><category>News</category></item><item><title>LibGD 2.3.0 release</title><link>https://libgd.github.io/release-2.3.0.html</link><description>&lt;p&gt;The LibGD team is proud to announce the 2.3.0 release of libgd.&lt;/p&gt;
+&lt;p&gt;Security related fixes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Double-free vulnerability in gdImageBmpPtr. (CVE-2018-1000222)&lt;/li&gt;
+&lt;li&gt;Null pointer reference at gdImageClone. (CVE-2018-14553)&lt;/li&gt;
+&lt;li&gt;Integer signedness error. (CVE-2018-5711)&lt;/li&gt;
+&lt;li&gt;Using uninitialized variables. (CVE-2019-11038)&lt;/li&gt;
+&lt;li&gt;Heap-based buffer overflow. (CVE-2019-6977)&lt;/li&gt;
+&lt;li&gt;Double-free in gdImage*Ptr(). (CVE-2019-6978)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For full list of changes …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Willson-chen</dc:creator><pubDate>Sun, 22 Mar 2020 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:libgd.github.io,2020-03-22:/release-2.3.0.html</guid><category>News</category></item></channel></rss>

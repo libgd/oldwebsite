@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GD Graphics Library - Christoph M. Becker</title><link href="https://libgd.github.io/" rel="alternate"></link><link href="https://libgd.github.io/feeds/christoph-m-becker.atom.xml" rel="self"></link><id>https://libgd.github.io/</id><updated>2017-08-30T00:00:00+02:00</updated><entry><title>LibGD 2.2.5 release</title><link href="https://libgd.github.io/release-2.2.5.html" rel="alternate"></link><published>2017-08-30T00:00:00+02:00</published><updated>2017-08-30T00:00:00+02:00</updated><author><name>Christoph M. Becker</name></author><id>tag:libgd.github.io,2017-08-30:/release-2.2.5.html</id><summary type="html">&lt;p&gt;The LibGD team is proud to announce the 2.2.5 release of libgd.&lt;/p&gt;
+&lt;p&gt;Security related fixes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Double-free in gdImagePngPtr(). (CVE-2017-6362)&lt;/li&gt;
+&lt;li&gt;Buffer over-read into uninitialized memory. (CVE-2017-7890)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For full list of changes, see &lt;a class="reference external" href="https://github.com/libgd/libgd/blob/gd-2.2.5/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a recommended update.&lt;/p&gt;
+&lt;p&gt;You can download the 2.2.5 version of GD …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The LibGD team is proud to announce the 2.2.5 release of libgd.&lt;/p&gt;
+&lt;p&gt;Security related fixes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Double-free in gdImagePngPtr(). (CVE-2017-6362)&lt;/li&gt;
+&lt;li&gt;Buffer over-read into uninitialized memory. (CVE-2017-7890)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For full list of changes, see &lt;a class="reference external" href="https://github.com/libgd/libgd/blob/gd-2.2.5/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a recommended update.&lt;/p&gt;
+&lt;p&gt;You can download the 2.2.5 version of GD Graphics Library from
+the &lt;a class="reference external" href="https://github.com/libgd/libgd/releases/tag/gd-2.2.5"&gt;libgd project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a class="reference external" href="https://github.com/libgd/libgd/compare/gd-2.2.4...gd-2.2.5"&gt;full commits list&lt;/a&gt; since the previous release.&lt;/p&gt;
+</content><category term="News"></category></entry></feed>

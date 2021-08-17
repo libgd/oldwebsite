@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>LibGD 2.2.2 release</title>
+        <link rel="icon" href="./theme/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="./theme/css/main.css" />
+        <link href="https://libgd.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="GD Graphics Library Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <img src="./theme/images/logomin.png" style="float: right; margin-top: -35px;">
+                <nav><ul>
+                    <li><a href="./pages/about.html">About</a></li>
+                    <li><a href="./pages/docs.html">Docs</a></li>
+                    <li><a href="./pages/downloads.html">Downloads</a></li>
+                    <li><a href="./pages/faq.html">Frequently Asked Questions</a></li>
+                    <li class="active"><a href="./category/news.html">News</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="./release-2.2.2.html" rel="bookmark"
+           title="Permalink to LibGD 2.2.2 release">LibGD 2.2.2 release</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2016-06-25T00:00:00+02:00">
+                Sat 25 June 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="./author/pierre-joye.html">Pierre Joye</a>
+        </address>
+<p>In <a href="./category/news.html">News</a>.</p>
+
+</footer><!-- /.post-info -->      <p>Exactly a month after 2.2.1 we welcome the 2.2.2 release. An important
+milestone in the GD 2.2 series.</p>
+<p>Security related fixes:</p>
+<blockquote>
+<ul class="simple">
+<li>Integer Overflow in gdImagePaletteToTrueColor() resulting in heap overflow (CVE-2016-5767)</li>
+<li>#215 Stack overflow with gdImageFillToBorder (CVE-2015-8874, CVE-2016-9933)</li>
+<li>NULL Pointer Dereference at _gdScaleVert</li>
+</ul>
+</blockquote>
+<p>We also like to mention to consider the GD and GD2 image formats only for development or testing
+purposes. We do plan to deprecate it in GD 2.3 and remove it in GD 3.0. Its existence is not justified
+anymore as other formats provide lossless storage for both palette and truecolor images in a much more
+efficient way.</p>
+<p>Numerous other fixes have been applied. The scale and rotation functions have been greatly improved as well.</p>
+<p>This is a recommended update.</p>
+<p>You can download the 2.2.2 version of GD Graphics Library from
+the <a class="reference external" href="https://github.com/libgd/libgd/releases/tag/gd-2.2.2">libgd project</a>.</p>
+<p>Check out the <a class="reference external" href="https://github.com/libgd/libgd/compare/gd-2.2.1...gd-2.2.2">full commits list</a> since the previous release.</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="https://github.com/libgd/libgd/releases">Downloads</a></li>
+                            <li><a href="https://github.com/libgd/libgd/issues">Issues</a></li>
+                            <li><a href="http://news.php.net/php.gd.devel/">Mailing List</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://libgd.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/libgd/libgd">github</a></li>
+                            <li><a href="irc://irc.freenode.net/libgd">irc</a></li>
+                            <li><a href="https://gitter.im/libgd/libgd">gitter</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+</body>
+</html>

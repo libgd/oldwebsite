@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>GD Graphics Library - Christoph M. Becker</title><link>https://libgd.github.io/</link><description></description><lastBuildDate>Wed, 30 Aug 2017 00:00:00 +0200</lastBuildDate><item><title>LibGD 2.2.5 release</title><link>https://libgd.github.io/release-2.2.5.html</link><description>&lt;p&gt;The LibGD team is proud to announce the 2.2.5 release of libgd.&lt;/p&gt;
+&lt;p&gt;Security related fixes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Double-free in gdImagePngPtr(). (CVE-2017-6362)&lt;/li&gt;
+&lt;li&gt;Buffer over-read into uninitialized memory. (CVE-2017-7890)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For full list of changes, see &lt;a class="reference external" href="https://github.com/libgd/libgd/blob/gd-2.2.5/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a recommended update.&lt;/p&gt;
+&lt;p&gt;You can download the 2.2.5 version of GD …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Christoph M. Becker</dc:creator><pubDate>Wed, 30 Aug 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:libgd.github.io,2017-08-30:/release-2.2.5.html</guid><category>News</category></item></channel></rss>

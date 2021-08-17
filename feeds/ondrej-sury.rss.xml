@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>GD Graphics Library - Ondřej Surý</title><link>https://libgd.github.io/</link><description></description><lastBuildDate>Wed, 18 Jan 2017 00:00:00 +0100</lastBuildDate><item><title>LibGD 2.2.4 release</title><link>https://libgd.github.io/release-2.2.4.html</link><description>&lt;p&gt;LibGD team is proud to announce the 2.2.4 release of libgd.&lt;/p&gt;
+&lt;p&gt;Security related fixes:
+This flaw is caused by loading data from external sources (file, custom ctx, etc) and are hard to validate before calling libgd APIs:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;gdImageCreate() doesn't check for oversized images and as such is
+prone …&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ondřej Surý</dc:creator><pubDate>Wed, 18 Jan 2017 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:libgd.github.io,2017-01-18:/release-2.2.4.html</guid><category>News</category></item><item><title>LibGD 2.1.0-rc1 release</title><link>https://libgd.github.io/release-2.1.0-rc1.html</link><description>&lt;p&gt;GD team proudly announces that the 2.1.0-rc1 version of GD Graphics
+Library has been released.  We have fixed some reported bugs and
+glitches and so far everything looks fine and stable, thus we are
+releasing RC1.  No more functionality will be added, just bugfixes.&lt;/p&gt;
+&lt;p&gt;You can download the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ondřej Surý</dc:creator><pubDate>Fri, 24 May 2013 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:libgd.github.io,2013-05-24:/release-2.1.0-rc1.html</guid><category>News</category></item><item><title>LibGD 2.1.0-alpha1 release</title><link>https://libgd.github.io/release-2.1.0-alpha1.html</link><description>&lt;p&gt;GD team proudly announces that the 2.1.0-alpha1 version of GD Graphics
+Library has been released.  Most of the improvements that PHP GD team
+had made to GD Graphics Library has been merged into 2.1.0-alpha1
+release.&lt;/p&gt;
+&lt;p&gt;You can download the 2.1.0-alpha1 version of GD Graphics …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ondřej Surý</dc:creator><pubDate>Wed, 10 Apr 2013 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:libgd.github.io,2013-04-10:/release-2.1.0-alpha1.html</guid><category>News</category></item><item><title>New libgd.org website</title><link>https://libgd.github.io/new-website.html</link><description>&lt;p&gt;The libgd.org has a new website.  We have built the new site in
+&lt;a class="reference external" href="http://getpelican.com"&gt;Pelican&lt;/a&gt; in order to statically render our site content. You can
+view the sources used to build this website in its own &lt;a class="reference external" href="https://github.org/libgd/website"&gt;git repository&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ondřej Surý</dc:creator><pubDate>Tue, 09 Apr 2013 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:libgd.github.io,2013-04-09:/new-website.html</guid><category>News</category></item></channel></rss>

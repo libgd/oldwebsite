@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>LibGD 2.2.3 release</title>
+        <link rel="icon" href="./theme/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="./theme/css/main.css" />
+        <link href="https://libgd.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="GD Graphics Library Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <img src="./theme/images/logomin.png" style="float: right; margin-top: -35px;">
+                <nav><ul>
+                    <li><a href="./pages/about.html">About</a></li>
+                    <li><a href="./pages/docs.html">Docs</a></li>
+                    <li><a href="./pages/downloads.html">Downloads</a></li>
+                    <li><a href="./pages/faq.html">Frequently Asked Questions</a></li>
+                    <li class="active"><a href="./category/news.html">News</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="./release-2.2.3.html" rel="bookmark"
+           title="Permalink to LibGD 2.2.3 release">LibGD 2.2.3 release</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2016-07-22T00:00:00+02:00">
+                Fri 22 July 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="./author/pierre-joye.html">Pierre Joye</a>
+        </address>
+<p>In <a href="./category/news.html">News</a>.</p>
+
+</footer><!-- /.post-info -->      <p>We welcome the 2.2.3 release around a month after 2.2.2 (we are getting consistent). Another important
+milestone in the GD 2.2 series.</p>
+<p>Security related fixes:
+This flaw is caused by loading data from external sources (file, custom ctx, etc) and are hard to validate before calling libgd APIs:</p>
+<blockquote>
+<ul class="simple">
+<li>fix php bug 72339, Integer Overflow in _gd2GetHeader (CVE-2016-5766)</li>
+<li>bug #247, A read out-of-bands was found in the parsing of TGA files (CVE-2016-6132)</li>
+<li>also bug #247, Buffer over-read issue when parsing crafted TGA file (CVE-2016-6214)</li>
+<li>bug #248, fix Out-Of-Bounds Read in read_image_tga</li>
+</ul>
+</blockquote>
+<p>Using application provided parameters, in these cases invalid data causes the issues:</p>
+<blockquote>
+<ul class="simple">
+<li>Integer overflow error within _gdContributionsAlloc() (CVE-2016-6207)</li>
+<li>fix php bug 72494, invalid color index not handled, can lead to crash (CVE-2016-6128)</li>
+<li>improve color check for CropThreshold</li>
+</ul>
+</blockquote>
+<p>Important update:</p>
+<blockquote>
+<ul class="simple">
+<li>gdImageCopyResampled has been improved. Better handling of images with alpha channel, also brings libgd in sync with php's bundled gd.</li>
+</ul>
+</blockquote>
+<p>This is a recommended update.</p>
+<p>On a sidenote, we have now a gitter channel if you have any questions or like to discuss with us,
+<a class="reference external" href="https://gitter.im/libgd/libgd">gitter</a>, in addition to our &quot;#libgd&quot; freenode channel.</p>
+<p>You can download the 2.2.3 version of GD Graphics Library from
+the <a class="reference external" href="https://github.com/libgd/libgd/releases/tag/gd-2.2.3">libgd project</a>.</p>
+<p>Check out the <a class="reference external" href="https://github.com/libgd/libgd/compare/gd-2.2.2...gd-2.2.3">full commits list</a> since the previous release.</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="https://github.com/libgd/libgd/releases">Downloads</a></li>
+                            <li><a href="https://github.com/libgd/libgd/issues">Issues</a></li>
+                            <li><a href="http://news.php.net/php.gd.devel/">Mailing List</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://libgd.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/libgd/libgd">github</a></li>
+                            <li><a href="irc://irc.freenode.net/libgd">irc</a></li>
+                            <li><a href="https://gitter.im/libgd/libgd">gitter</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+</body>
+</html>
