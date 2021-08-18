@@ -44,6 +44,7 @@ jobs:
           token: ${{ secrets.my_pat }}
           path: ./libgd.gh.io
       - name: Copy over
+        run: |
           cp -rf ./output/* ./libgd.gh.io/
           ghp-import -n -r origin -b master -m "$(git log -1 --oneline)" ./libgd.gh.io/
           git push --force origin master
