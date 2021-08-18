@@ -48,7 +48,7 @@ jobs:
           repository: libgd/libgd.github.io
           token: ${{ secrets.WEBSITEUPDATE }}
           path: ./libgd.gh.io
-          ref: master
+          ref: 
       - name: Copy over
         run: |
           cp -rf ./output/* ./libgd.gh.io/
