@@ -38,6 +38,8 @@ jobs:
       - name: Push to GitHub pages
         id: push-to-gh-pages
         run: |
+          pwd
+          ls -al
           make DEBUG=1 publish
           touch ./output/.nojekyll
       - name: Checkout libgd.gh.io source
