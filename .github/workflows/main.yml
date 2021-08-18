@@ -16,6 +16,7 @@ jobs:
         id: checkout-master
         uses: actions/checkout@v2
         with:
+          persist-credentials: false
           path: ./website
       - name: Cache dependencies
         uses: actions/cache@v2
@@ -44,6 +45,7 @@ jobs:
       - name: Checkout libgd.gh.io source
         uses: actions/checkout@v1
         with:
+          persist-credentials: false
           repository: ligd/libgd.github.io
           token: ${{ secrets.WEBSITEUPDATE }}
       - name: Copy over
