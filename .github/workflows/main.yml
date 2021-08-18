@@ -33,6 +33,7 @@ jobs:
         id: push-to-gh-pages
         run: |
           make DEBUG=1 publish
+          touch ./output/.nojekyll
           git remote remove origin
 
           git remote add origin git@github.com:libgd/libgd.github.io.git
