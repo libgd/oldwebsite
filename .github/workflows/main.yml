@@ -1,4 +1,4 @@
-name: Deploy biolitika blog
+name: Deploy LibGD Website
 on:
   push:
     branches:
