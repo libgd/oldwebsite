@@ -28,7 +28,7 @@
 &lt;p&gt;This is a recommended update.&lt;/p&gt;
 &lt;p&gt;You can download the 2.3.1 version of GD Graphics Library from
 the &lt;a class="reference external" href="https://github.com/libgd/libgd/releases/tag/gd-2.3.1"&gt;libgd 2.3.1 release&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Check out the &lt;a class="reference external" href="https://github.com/libgd/libgd/compare/gd-2.3.0...gd-2.3.1"&gt;full commits list&lt;/a&gt; since the previous release.&lt;/p&gt;
+&lt;p&gt;You can read the &lt;a class="reference external" href="https://github.com/libgd/libgd/compare/gd-2.3.0...gd-2.3.1"&gt;full commits list&lt;/a&gt; at this link.&lt;/p&gt;
 </content><category term="News"></category></entry><entry><title>LibGD 2.3.1 release</title><link href="https://libgd.github.io/release-2.3.1.html" rel="alternate"></link><published>2021-01-30T00:00:00+01:00</published><updated>2021-01-30T00:00:00+01:00</updated><author><name>Willson-chen</name></author><id>tag:libgd.github.io,2021-01-30:/release-2.3.1.html</id><summary type="html">&lt;p&gt;The LibGD team is proud to announce the 2.3.1 release of libgd.&lt;/p&gt;
 &lt;p&gt;Fixes:&lt;/p&gt;
 &lt;blockquote&gt;
