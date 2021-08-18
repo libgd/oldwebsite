@@ -45,7 +45,7 @@ jobs:
         id: checkout-master-libgd
         uses: actions/checkout@v2
         with:
-          repository: libgd//libgd.github.io
+          repository: libgd/libgd.github.io
           token: ${{ secrets.my_pat }}
           path: ./libgd.gh.io
       - name: Copy over
