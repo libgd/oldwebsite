@@ -43,7 +43,7 @@ jobs:
           make DEBUG=1 publish
           touch ./output/.nojekyll
       - name: Checkout libgd.gh.io source
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
         with:
           persist-credentials: false
           repository: ligd/libgd.github.io
