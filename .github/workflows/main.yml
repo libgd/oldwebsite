@@ -41,9 +41,6 @@ jobs:
           cd website
           make DEBUG=1 publish
           touch ./output/.nojekyll
-      - name: debugtest
-        run: |
-          echo ${{ secrets.WEBSITEUPDATE }}
       - name: Checkout libgd.gh.io source
         id: checkout-master-libgd
         uses: actions/checkout@v2
@@ -51,7 +48,7 @@ jobs:
           repository: libgd/libgd.github.io
           token: ${{ secrets.WEBSITEUPDATE }}
           path: ./libgd.gh.io
-          ref: 
+          ref: master 
       - name: Copy over
         run: |
           cp -rf ./output/* ./libgd.gh.io/
