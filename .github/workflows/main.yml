@@ -26,11 +26,15 @@ jobs:
             pelican-4.2.0-
       - name: Install Pelican
         run: |
+          cd website
           pip install -r requirements.txt
+          cd ..
       - name: Run Pelican
         id: run-pelican
         run: |
+          cd website
           pelican content --output docs --settings publishconf.py
+          cd ..
       - name: Push to GitHub pages
         id: push-to-gh-pages
         run: |
