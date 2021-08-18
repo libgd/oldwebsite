@@ -42,13 +42,10 @@ jobs:
           make DEBUG=1 publish
           touch ./output/.nojekyll
       - name: Checkout libgd.gh.io source
-        id: checkout-master-libgd
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
         with:
-          repository: libgd/libgd.github.io
+          repository: ligd/libgd.github.io
           token: ${{ secrets.WEBSITEUPDATE }}
-          path: ./libgd.gh.io
-          ref: master 
       - name: Copy over
         run: |
           cp -rf ./output/* ./libgd.gh.io/
