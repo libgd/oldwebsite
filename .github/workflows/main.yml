@@ -54,3 +54,4 @@ jobs:
           cp -rf ./output/* ./libgd.gh.io/
           ghp-import -n -r origin -b master -m "$(git log -1 --oneline)" ./libgd.gh.io/
           git push --force origin master
+
