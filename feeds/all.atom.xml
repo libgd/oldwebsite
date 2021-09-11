@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>GD Graphics Library</title><link href="https://libgd.github.io/" rel="alternate"></link><link href="https://libgd.github.io/feeds/all.atom.xml" rel="self"></link><id>https://libgd.github.io/</id><updated>2021-03-07T00:00:00+01:00</updated><entry><title>LibGD 2.3.2 release AVIF &amp; HEIF support</title><link href="https://libgd.github.io/release-2.3.2.html" rel="alternate"></link><published>2021-03-07T00:00:00+01:00</published><updated>2021-03-07T00:00:00+01:00</updated><author><name>Mike Frysinger</name></author><id>tag:libgd.github.io,2021-03-07:/release-2.3.2.html</id><summary type="html">&lt;p&gt;The LibGD team is proud to announce the 2.3.2 release of libgd.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GD Graphics Library</title><link href="https://libgd.github.io/" rel="alternate"></link><link href="https://libgd.github.io/feeds/all.atom.xml" rel="self"></link><id>https://libgd.github.io/</id><updated>2021-09-12T00:00:00+02:00</updated><entry><title>LibGD 2.3.3 Bugs fixes and improved cross platforms improved</title><link href="https://libgd.github.io/release-2.3.3.html" rel="alternate"></link><published>2021-09-12T00:00:00+02:00</published><updated>2021-09-12T00:00:00+02:00</updated><author><name>Pierre Joye</name></author><id>tag:libgd.github.io,2021-09-12:/release-2.3.3.html</id><summary type="html">&lt;p&gt;The LibGD team is proud to announce the 2.3.3 release of libgd. This release brings a few fixes
+as well as improved compilations and builds on all platforms. On Windows, vcpkg to install libGd
+dependencies is now well supported.&lt;/p&gt;
+&lt;p&gt;In the process, we also added CI using github …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The LibGD team is proud to announce the 2.3.3 release of libgd. This release brings a few fixes
+as well as improved compilations and builds on all platforms. On Windows, vcpkg to install libGd
+dependencies is now well supported.&lt;/p&gt;
+&lt;p&gt;In the process, we also added CI using github actions for Linux (x64, arm64/neon, gcc and clan), Windows
+(x64, arm64, vc and mingw). We are looking for more supported platforms to add to our CI (BSD, all
+architures, PowerPC, RiscV etc). If you have such systems and willing to let us run  run the github actions
+CI on it, please let us know, it will be much appreciated.&lt;/p&gt;
+&lt;p&gt;Fixes:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/759updatecmaketogenerateconfig.hinthebuilddir"&gt;#759&lt;/a&gt; update cmake to generate config.h in the build dir&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/7562.3.3release"&gt;#756&lt;/a&gt; 2.3.3 release&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/750gdPutBufreturnvaluecheck"&gt;#750&lt;/a&gt; gdPutBuf return value check&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/729HEIFbuildsfailwithlatestdistros"&gt;#729&lt;/a&gt; HEIF builds fail with latest distros&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/678segfaultinheiftestsduetomissinglabel.heic"&gt;#678&lt;/a&gt; segfault in heif tests due to missing label.heic&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/677Testfailureavif/compare_avif_to_pngwithlibavif-0.8.2"&gt;#677&lt;/a&gt; Test failure avif/compare_avif_to_png with libavif-0.8.2&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/661imagecopyresampled()produceartifactsontransparentPNG"&gt;#661&lt;/a&gt; imagecopyresampled() produce artifacts on transparent PNG&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/611Fixestobuildv2.3.0onWindowswithMinGW-w64"&gt;#611&lt;/a&gt; Fixes to build v2.3.0 on Windows with MinGW-w64&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/415optimizeoptioningifanimationcausessegfault"&gt;#415&lt;/a&gt; optimize option in gif animation causes segfault&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/331_gdContributionsCalc()alwaysusesDEFAULT_BOX_RADIUS"&gt;#331&lt;/a&gt; _gdContributionsCalc() always uses DEFAULT_BOX_RADIUS (gdImageScale internal sub method)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/320gdImageRotateInterpolated()convertsthesourceimagetotruecolor"&gt;#320&lt;/a&gt; gdImageRotateInterpolated() converts the source image to truecolor&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/249CMakeandMakefilesbuildbrokenonWindows"&gt;#249&lt;/a&gt; CMake and Makefiles build broken on Windows&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/libgd/libgd/issues/93gdImageScaleTwoPass()loosestoprowandleftcolumn"&gt;#93&lt;/a&gt; gdImageScaleTwoPass() looses top row and left column&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For full list of changes, see &lt;a class="reference external" href="https://github.com/libgd/libgd/blob/gd-2.3.3/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a recommended update.&lt;/p&gt;
+&lt;p&gt;You can download the 2.3.3 version of GD Graphics Library from
+the &lt;a class="reference external" href="https://github.com/libgd/libgd/releases/tag/gd-2.3.3"&gt;libgd 2.3.3 release&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a class="reference external" href="https://github.com/libgd/libgd/compare/gd-2.3.2...gd-2.3.3"&gt;full commits list&lt;/a&gt; since the previous release.&lt;/p&gt;
+</content><category term="News"></category></entry><entry><title>LibGD 2.3.2 release AVIF &amp; HEIF support</title><link href="https://libgd.github.io/release-2.3.2.html" rel="alternate"></link><published>2021-03-07T00:00:00+01:00</published><updated>2021-03-07T00:00:00+01:00</updated><author><name>Mike Frysinger</name></author><id>tag:libgd.github.io,2021-03-07:/release-2.3.2.html</id><summary type="html">&lt;p&gt;The LibGD team is proud to announce the 2.3.2 release of libgd.&lt;/p&gt;
 &lt;p&gt;Fixes:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul class="simple"&gt;

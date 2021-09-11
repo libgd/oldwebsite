@@ -26,7 +26,59 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../release-2.2.3.html">LibGD 2.2.3 release</a></h1>
+                    <h1 class="entry-title"><a href="../release-2.3.3.html">LibGD 2.3.3 Bugs fixes and improved cross platforms improved</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2021-09-12T00:00:00+02:00">
+                Sun 12 September 2021
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/pierre-joye.html">Pierre Joye</a>
+        </address>
+<p>In <a href="../category/news.html">News</a>.</p>
+
+</footer><!-- /.post-info --><p>The LibGD team is proud to announce the 2.3.3 release of libgd. This release brings a few fixes
+as well as improved compilations and builds on all platforms. On Windows, vcpkg to install libGd
+dependencies is now well supported.</p>
+<p>In the process, we also added CI using github actions for Linux (x64, arm64/neon, gcc and clan), Windows
+(x64, arm64, vc and mingw). We are looking for more supported platforms to add to our CI (BSD, all
+architures, PowerPC, RiscV etc). If you have such systems and willing to let us run  run the github actions
+CI on it, please let us know, it will be much appreciated.</p>
+<p>Fixes:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/759updatecmaketogenerateconfig.hinthebuilddir">#759</a> update cmake to generate config.h in the build dir</li>
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/7562.3.3release">#756</a> 2.3.3 release</li>
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/750gdPutBufreturnvaluecheck">#750</a> gdPutBuf return value check</li>
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/729HEIFbuildsfailwithlatestdistros">#729</a> HEIF builds fail with latest distros</li>
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/678segfaultinheiftestsduetomissinglabel.heic">#678</a> segfault in heif tests due to missing label.heic</li>
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/677Testfailureavif/compare_avif_to_pngwithlibavif-0.8.2">#677</a> Test failure avif/compare_avif_to_png with libavif-0.8.2</li>
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/661imagecopyresampled()produceartifactsontransparentPNG">#661</a> imagecopyresampled() produce artifacts on transparent PNG</li>
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/611Fixestobuildv2.3.0onWindowswithMinGW-w64">#611</a> Fixes to build v2.3.0 on Windows with MinGW-w64</li>
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/415optimizeoptioningifanimationcausessegfault">#415</a> optimize option in gif animation causes segfault</li>
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/331_gdContributionsCalc()alwaysusesDEFAULT_BOX_RADIUS">#331</a> _gdContributionsCalc() always uses DEFAULT_BOX_RADIUS (gdImageScale internal sub method)</li>
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/320gdImageRotateInterpolated()convertsthesourceimagetotruecolor">#320</a> gdImageRotateInterpolated() converts the source image to truecolor</li>
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/249CMakeandMakefilesbuildbrokenonWindows">#249</a> CMake and Makefiles build broken on Windows</li>
+<li><a class="reference external" href="https://github.com/libgd/libgd/issues/93gdImageScaleTwoPass()loosestoprowandleftcolumn">#93</a> gdImageScaleTwoPass() looses top row and left column</li>
+</ul>
+<p>For full list of changes, see <a class="reference external" href="https://github.com/libgd/libgd/blob/gd-2.3.3/CHANGELOG.md">CHANGELOG.md</a>.</p>
+<p>This is a recommended update.</p>
+<p>You can download the 2.3.3 version of GD Graphics Library from
+the <a class="reference external" href="https://github.com/libgd/libgd/releases/tag/gd-2.3.3">libgd 2.3.3 release</a>.</p>
+<p>Check out the <a class="reference external" href="https://github.com/libgd/libgd/compare/gd-2.3.2...gd-2.3.3">full commits list</a> since the previous release.</p>
+                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../release-2.2.3.html" rel="bookmark"
+                           title="Permalink to LibGD 2.2.3 release">LibGD 2.2.3 release</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2016-07-22T00:00:00+02:00">
                 Fri 22 July 2016
@@ -37,44 +89,13 @@
         </address>
 <p>In <a href="../category/news.html">News</a>.</p>
 
-</footer><!-- /.post-info --><p>We welcome the 2.2.3 release around a month after 2.2.2 (we are getting consistent). Another important
+</footer><!-- /.post-info -->                <p>We welcome the 2.2.3 release around a month after 2.2.2 (we are getting consistent). Another important
 milestone in the GD 2.2 series.</p>
 <p>Security related fixes:
-This flaw is caused by loading data from external sources (file, custom ctx, etc) and are hard to validate before calling libgd APIs:</p>
-<blockquote>
-<ul class="simple">
-<li>fix php bug 72339, Integer Overflow in _gd2GetHeader (CVE-2016-5766)</li>
-<li>bug #247, A read out-of-bands was found in the parsing of TGA files (CVE-2016-6132)</li>
-<li>also bug #247, Buffer over-read issue when parsing crafted TGA file (CVE-2016-6214)</li>
-<li>bug #248, fix Out-Of-Bounds Read in read_image_tga</li>
-</ul>
-</blockquote>
-<p>Using application provided parameters, in these cases invalid data causes the issues:</p>
-<blockquote>
-<ul class="simple">
-<li>Integer overflow error within _gdContributionsAlloc() (CVE-2016-6207)</li>
-<li>fix php bug 72494, invalid color index not handled, can lead to crash (CVE-2016-6128)</li>
-<li>improve color check for CropThreshold</li>
-</ul>
-</blockquote>
-<p>Important update:</p>
-<blockquote>
-<ul class="simple">
-<li>gdImageCopyResampled has been improved. Better handling of images with alpha channel, also brings libgd in sync with php's bundled gd.</li>
-</ul>
-</blockquote>
-<p>This is a recommended update.</p>
-<p>On a sidenote, we have now a gitter channel if you have any questions or like to discuss with us,
-<a class="reference external" href="https://gitter.im/libgd/libgd">gitter</a>, in addition to our &quot;#libgd&quot; freenode channel.</p>
-<p>You can download the 2.2.3 version of GD Graphics Library from
-the <a class="reference external" href="https://github.com/libgd/libgd/releases/tag/gd-2.2.3">libgd project</a>.</p>
-<p>Check out the <a class="reference external" href="https://github.com/libgd/libgd/compare/gd-2.2.2...gd-2.2.3">full commits list</a> since the previous release.</p>
-                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+This flaw is caused by loading data from external sources (file, custom ctx, etc) and are hard to validate before …</p>
+                <a class="readmore" href="../release-2.2.3.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
