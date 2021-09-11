@@ -14,7 +14,7 @@ In the process, we also added CI using github actions for Linux (x64, arm64/neon
 (x64, arm64, vc and mingw). We are looking for more supported platforms to add to our CI (BSD, all 
 architures, PowerPC, RiscV etc). If you have such systems and willing to let us run  run the github actions 
 CI on it, please let us know, it will be much appreciated.
-`#494`_
+
 Fixes:
 - `#759`_ update cmake to generate config.h in the build dir
 - `#756`_ 2.3.3 release
