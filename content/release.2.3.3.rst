@@ -14,20 +14,20 @@ In the process, we also added CI using github actions for Linux (x64, arm64/neon
 (x64, arm64, vc and mingw). We are looking for more supported platforms to add to our CI (BSD, all 
 architures, PowerPC, RiscV etc). If you have such systems and willing to let us run  run the github actions 
 CI on it, please let us know, it will be much appreciated.
-
+`#494`_
 Fixes:
-- `#759_ update cmake to generate config.h in the build dir
-- `#756_ 2.3.3 release
-- `#750_ gdPutBuf return value check
-- `#729_ HEIF builds fail with latest distros
-- `#678_ segfault in heif tests due to missing label.heic
-- `#677_ Test failure avif/compare_avif_to_png with libavif-0.8.2
-- `#661_ imagecopyresampled() produce artifacts on transparent PNG
-- `#611_ Fixes to build v2.3.0 on Windows with MinGW-w64
-- `#415_ optimize option in gif animation causes segfault
-- `#331_ _gdContributionsCalc() always uses DEFAULT_BOX_RADIUS (gdImageScale internal sub method)
-- `#320_ gdImageRotateInterpolated() converts the source image to truecolor
-- `#249_ CMake and Makefiles build broken on Windows
+- `#759`_ update cmake to generate config.h in the build dir
+- `#756`_ 2.3.3 release
+- `#750`_ gdPutBuf return value check
+- `#729`_ HEIF builds fail with latest distros
+- `#678`_ segfault in heif tests due to missing label.heic
+- `#677`_ Test failure avif/compare_avif_to_png with libavif-0.8.2
+- `#661`_ imagecopyresampled() produce artifacts on transparent PNG
+- `#611`_ Fixes to build v2.3.0 on Windows with MinGW-w64
+- `#415`_ optimize option in gif animation causes segfault
+- `#331`_ _gdContributionsCalc() always uses DEFAULT_BOX_RADIUS (gdImageScale internal sub method)
+- `#320`_ gdImageRotateInterpolated() converts the source image to truecolor
+- `#249`_ CMake and Makefiles build broken on Windows
 - `#93`_ gdImageScaleTwoPass() looses top row and left column
 
 For full list of changes, see `CHANGELOG.md`_.
