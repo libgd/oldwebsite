@@ -16,6 +16,7 @@ architures, PowerPC, RiscV etc). If you have such systems and willing to let us 
 CI on it, please let us know, it will be much appreciated.
 
 Fixes:
+
 - `#759`_ update cmake to generate config.h in the build dir
 - `#756`_ 2.3.3 release
 - `#750`_ gdPutBuf return value check
@@ -30,12 +31,13 @@ Fixes:
 - `#249`_ CMake and Makefiles build broken on Windows
 - `#93`_ gdImageScaleTwoPass() looses top row and left column
 
+
 For full list of changes, see `CHANGELOG.md`_.
  
 This is a recommended update.
 
-You can download the 2.3.1 version of GD Graphics Library from
-the `libgd 2.3.1 release`_.
+You can download the 2.3.3 version of GD Graphics Library from
+the `libgd 2.3.3 release`_.
 
 Check out the `full commits list`_ since the previous release.
 
