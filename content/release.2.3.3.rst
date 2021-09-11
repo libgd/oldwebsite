@@ -1,5 +1,5 @@
-LibGD 2.3.3 Bugs fixes and improved cross platforms improved
-############################################################
+LibGD 2.3.3 Bugs fixes, improved MacOs, Windows builds support
+##############################################################
 
 :slug: release-2.3.3
 :date: 2021-09-12
